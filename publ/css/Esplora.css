@@ -1,0 +1,63 @@
+﻿.SpazioSotto {
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    background-color: #dd9933;
+    color: white;
+    font-family: 'Open Sans';
+    font: bold;
+    width: 100%;
+    cursor: pointer;
+}
+
+.img-slide {
+    width: 100%;
+    cursor: pointer;
+}
+
+    .img-slide:hover {
+    }
+
+.Slide {
+    width: 85%;
+    -webkit-transform: scale(1);
+    -webkit-transition-duration: 1s;
+    text-align: center;
+}
+
+    .Slide:hover {
+        -webkit-transform: scale(1.05);
+        -webkit-transition-duration: 1s;
+    }
+
+@media screen and (max-width: 768px) {
+    .Slide {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 100px;
+    }
+
+    .SpazioSotto {
+        width: 100%;
+    }
+
+    .img-slide {
+        width: 100%;
+    }
+}
+
+.Btnfrecce {
+    height: 50px;
+    line-height: 50px;
+    font-size: 45px;
+    color: #dd9933;
+    font-family: 'Open Sans';
+    font: bold;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 4%;
+    margin-left: 1.9%;
+    border: 0px;
+    background-color:white;
+}

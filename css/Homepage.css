@@ -1,0 +1,385 @@
+﻿
+/*HOMEPAGE:*/
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-size: 15px;
+}
+
+
+h1 {
+    font-family: 'Open Sans';
+}
+
+h2 {
+    font-family: 'Open Sans';
+}
+
+h3 {
+    font-family: 'Open Sans';
+}
+
+h4 {
+    font-family: 'Open Sans';
+}
+
+p {
+    font-family: 'Open Sans';
+}
+
+
+.logo {
+    margin-bottom: 0%;
+    width: 50%;
+    height: 50%;
+    margin-left: 35px;
+    margin-top: 35px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin-top: 75px;
+}
+
+.lista {
+    list-style-type:circle;
+    margin-top:10px;
+}
+
+.linkmenu {
+    color: white;
+    font-family: 'Open Sans';
+    line-height: 16px; /* verticale */
+    margin-left: -7px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-top: 10px;
+    color: white;
+    font-size: 16px;
+}
+
+    .linkmenu:hover {
+        background-color: #868686;
+    }
+
+a {
+    color: white;
+}
+
+    a:hover {
+        color: white;
+        text-decoration: none;
+    }
+
+.sottomenù {
+    margin-left: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 15px;
+}
+
+
+
+.MenuDrop {
+    background-color: #808087;
+    color: white;
+    list-style-type: none;
+    font-size: 15px;
+}
+
+    .MenuDrop:hover {
+        background-color: #a1a1a1;
+        color: white;
+        list-style-type: none;
+    }
+
+.DroppaMenu {
+    background-color: #808087;
+    font-size: 15px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+}
+
+
+@media screen and (min-width: 1000px) {
+    #BarraMenu {
+        display: block;
+    }
+
+    #MenuSchermoPiccolo {
+        display: none;
+    }
+
+    #item1 {
+        display: none;
+    }
+
+    #BarraMenu {
+        width: 15%;
+        height: 100%;
+        position: fixed;
+        background-color: #808087;
+        font-family: 'Open Sans';
+    }
+
+    #Testo {
+        width: 85%;
+        height: 100%;
+        position: absolute;
+        right: 0;
+       
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #BarraMenu {
+        display: none;
+    }
+
+    #MenuSchermoPiccolo {
+        display: block;
+        height: 100px;
+        line-height: 80px;
+    }
+
+    #Testo {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        background: url(image/sfondo.jpg) no-repeat center center;
+        background-size: 100% 100%;
+    }
+}
+
+.logopiccolo {
+    height: 70px;
+    width: 70px;
+}
+
+.InfoMuseo {
+    margin-left: 30px;
+    position: absolute;
+    bottom: 40px;
+    color: white;
+    font-size: 12px;
+    font-family: 'Open Sans';
+    display: block;
+}
+
+@media screen and (max-height: 580px) {
+    .InfoMuseo {
+        display: none;
+    }
+}
+
+
+
+
+.TagA {
+    color: black;
+}
+
+    .TagA:hover {
+        color: black;
+    }
+
+.box_angolo_destra {
+    font-family: 'Open Sans';
+    font: bold;
+    right: 2.8%;
+    bottom: 40px;
+    position: absolute;
+    font-family: 'Open Sans';
+    border: 0px;
+    background-color: #eecc99;
+    height: 60px;
+    width: 600px;
+    -moz-border-radius-topright: 10px;
+    border-top-right-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    text-align: center; /* orizzontale */
+    line-height: 30px; /* verticale */
+    font-size: 14px;
+    color:black;
+}
+
+@media screen and (max-width: 1000px) {
+    .box_angolo_destra {
+        position: relative;
+        margin-top: 90px;
+        font-family: 'Open Sans';
+        border: solid, 0px, black;
+        background-color: #eecc99;
+        width: 90%;
+        margin-right: 10%;
+    }
+}
+
+@media screen and (max-width: 466px) {
+    .box_angolo_destra {
+        position: relative;
+        margin-top: 90px;
+        font-family: 'Open Sans';
+        border: solid, 0px, black;
+        background-color: #eecc99;
+        width: 90%;
+        margin-right: 10%;
+        height: 90px;
+    }
+}
+
+
+
+
+
+/*ALTRE PAGINE MUSEO + INFORMAZIONI*/
+
+
+body {
+    overflow-x: hidden;
+}
+
+
+.SpanTxt {
+    width: 75%;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+}
+
+.SpanImg {
+    width: 19%;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    margin-left:3%;
+    text-align:center;
+}
+
+.box {
+    width: 17%;
+    height: 40px;
+    background-color: #808087;
+    color: white;
+    font: bold;
+    text-align: left;
+    line-height: 40px;
+    font-family: 'Open Sans';
+    border-radius: 0px 7px 0px 0px;
+    cursor: pointer;
+    padding-left: 2.2%;
+    display: inline-block;
+    margin-right: 4%;
+}
+
+.Textbox_Lente {
+    width: 37%;
+    height: 40px;
+    display: inline-block;
+    margin-right: 4%;
+    height: 40px;
+    line-height: 40px;
+}
+
+.box2 {
+    width: 37%;
+    height: 40px;
+    background-color: #dd9933;
+    font-family: 'Open Sans';
+    color: white;
+    font: bold;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 0px 7px 0px 0px;
+    padding-right:0;
+}
+
+
+
+.textboxsemplice {
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    font-family: 'Open Sans';
+    color: black;
+    font: bold;
+    text-align: left;
+    line-height: 40px;
+    border: solid 1px;
+    display: inline-block;
+    border-radius: 0px 7px 0px 0px;
+    font-family: 'Open Sans';
+}
+
+
+.BOXLOGGATO {
+    color: white;
+    background-color: #dd9933;
+    height: 50px;
+    width: 160px;
+    display: inline-block;
+    line-height: 50px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 35px;
+}
+
+.img-loggato {
+    display: inline;
+    width: 35px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 1308px) {
+    .BOXLOGGATO {
+        width: 110px;
+    }
+
+    .img-loggato {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .box2 {
+        width: 90%;
+        margin-right:10%;
+        margin-top: 20px;
+    }
+
+    .box {
+        width: 250px;
+        margin-bottom: 0px;
+        margin-top: 10px;
+    }
+
+    .Textbox_Lente {
+        width: 90%;
+        margin-right: 10%;
+        margin-top: 20px;
+    }
+
+}
+
+
+
+
+/*PAGINA LOGIN*/
+
+
+
+
+
+
+
+
+
+
+

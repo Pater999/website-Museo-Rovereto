@@ -1,0 +1,72 @@
+﻿table {
+    border: 1px solid;
+    width: 100%;
+    border-color: #808087;
+    border-top-right-radius: 10px;
+    -moz-border-radius-topright: 10px;
+    -webkit-border-top-right-radius: 10px;
+    border-collapse: separate;
+    border-left: 0px;
+}
+
+tr {
+    border: 0px solid;
+    height: 38px;
+}
+
+th {
+    border: 1px solid;
+    width: 30%;
+    background-color: #808087;
+    padding-left: 5px;
+    color: white;
+    border-right: 0px;
+}
+
+td {
+    border: 1px solid;
+    width: 70%;
+    padding-left: 0px;
+    border-color: #808087;
+}
+
+.txtRicercaAvanzata {
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 38px;
+    background-color: transparent;
+    border: 0px solid;
+    padding-left: 5px;
+}
+
+.btnCerca {
+    height: 38px;
+    margin-top: 15px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    font-family: 'Open Sans';
+    color: white;
+    font: bold;
+    text-align: center; /* orizzontale */
+    line-height: 40px; /* verticale */
+    background-color: #808087;
+    cursor: pointer;
+    width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+    .btnCerca {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    table {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}

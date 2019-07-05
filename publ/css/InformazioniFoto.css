@@ -1,0 +1,40 @@
+﻿table {
+    border: 1px solid;
+    border-collapse:separate;
+    width: 100%;
+    border-color: #808087;
+    border-top-right-radius: 10px;
+    -moz-border-radius-topright: 10px;
+    -webkit-border-top-right-radius: 10px;
+    border-left: 0px;
+
+
+}
+
+tr {
+    border: 0px solid;
+    height: 50px;
+    border-color: #808087;
+}
+
+th {
+    border: 1px solid;
+    border-left:0px;
+    border-right:0px;
+    width: 35%;
+    background-color: #808087;
+    padding-left: 5px;
+    color: white;
+    border-left: solid black 1px;
+    border-color: white;
+    
+}
+
+td {
+    border: 1px solid;
+    width: 70%;
+    padding-left: 5px;
+    border-left: solid black 1px;
+    border-top: solid black 1px;
+    border-color: #808087;
+}

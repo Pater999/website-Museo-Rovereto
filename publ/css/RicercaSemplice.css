@@ -1,0 +1,52 @@
+﻿.TitoloFoto {
+    font-family: 'Open Sans';
+    font-size: 14px;
+}
+
+.Carta {
+    font-family: 'Open Sans';
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid;
+    border-color: #808087;
+    padding-top: 0px;
+    font-weight: bold;
+    text-align:left;
+}
+   .Carta:hover {
+        background-color: whitesmoke;
+        cursor: pointer;
+        
+    }
+
+.InfoFoto {
+    font-family: 'Open Sans';
+    font-size: 12px;
+}
+
+.InformazioniFoto {
+    width: 276px;
+    height: 140px;
+    font-family: 'Open Sans';
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    word-wrap: break-word;
+}
+
+.BtnAltreInfo {
+    width: 150px;
+    height: 40px;
+    font-family: 'Open Sans';
+    color: white;
+    font: bold;
+    text-align: center; /* orizzontale */
+    line-height: 40px; /* verticale */
+    background-color: #dd9933;
+    cursor: pointer;
+}
+
+.imgQUADRATA {
+    width: 100%;
+}
